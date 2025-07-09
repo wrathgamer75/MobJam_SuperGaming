@@ -1,0 +1,271 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bcc4ebe7965e2e419567d2cd49a2e7d, type: 3}
+  m_Name: Level3
+  m_EditorClassIdentifier: 
+  levelName: Level3
+  tower: {fileID: 4193506968822693280, guid: 5337ee33fd39fa54598378111357503c, type: 3}
+  npc: {fileID: 1051664970830496459, guid: a9ab6ffd9299ae44dbc69436647c0b32, type: 3}
+  gridLayout:
+    CellWidth: 30
+    CellHeight: 20
+    PaddingW: 5
+    PaddingH: 5
+    CustomCellSizeSet: 0
+    CustomPaddingSet: 0
+    Grid:
+    - items:
+      - blackwall
+      - blackwall
+      - yellowwall
+      - yellowwall
+      - yellowwall
+      - blackwall
+      - blackwall
+      - blackwall
+      - bluewall
+      - bluewall
+      - bluewall
+      - bluewall
+      - blackwall
+      - blackwall
+      - blackwall
+    - items:
+      - blackwall
+      - 
+      - 
+      - redobj2
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - redobj1
+      - redobj1
+      - redobj1
+      - blackwall
+    - items:
+      - blackwall
+      - 
+      - redobj2
+      - redobj2
+      - redobj2
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - redobj1
+      - redobj1
+      - redobj1
+      - blackwallblackwall
+    - items:
+      - blackwall
+      - 
+      - 
+      - redobj2
+      - 
+      - 
+      - greenobj1
+      - greenobj1
+      - greenobj1
+      - 
+      - 
+      - redobj1
+      - redobj1
+      - redobj1
+      - blackwall
+    - items:
+      - blackwall
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - greenobj1
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - blackwall
+    - items:
+      - pinkwall
+      - yellowobj2
+      - yellowobj2
+      - yellowobj2
+      - 
+      - 
+      - 
+      - greenobj1
+      - 
+      - 
+      - pinkobj1
+      - pinkobj1
+      - 
+      - 
+      - greenwall
+    - items:
+      - pinkwall
+      - yellowobj2
+      - yellowobj2
+      - yellowobj2
+      - 
+      - 
+      - 
+      - greenobj1
+      - 
+      - 
+      - pinkobj1
+      - pinkobj1
+      - pinkobj1
+      - 
+      - greenwall
+    - items:
+      - pinkwall
+      - yellowobj2
+      - yellowobj2
+      - yellowobj2
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - pinkobj1
+      - pinkobj1
+      - 
+      - 
+      - greenwall
+    - items:
+      - pinkwall
+      - 
+      - 
+      - 
+      - 
+      - pinkobj2
+      - pinkobj2
+      - pinkobj2
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - greenwall
+    - items:
+      - blackwall
+      - 
+      - 
+      - 
+      - 
+      - pinkobj2
+      - pinkobj2
+      - 
+      - blueobj1
+      - blueobj1
+      - 
+      - 
+      - 
+      - 
+      - greenwall
+    - items:
+      - blackwall
+      - 
+      - 
+      - 
+      - 
+      - pinkobj2
+      - 
+      - 
+      - blueobj1
+      - blueobj1
+      - 
+      - 
+      - 
+      - 
+      - blackwall
+    - items:
+      - blackwall
+      - greenobj2
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - blueobj1
+      - blueobj1
+      - 
+      - 
+      - 
+      - yellowobj1
+      - blackwall
+    - items:
+      - blackwall
+      - greenobj2
+      - greenobj2
+      - 
+      - 
+      - blueobj2
+      - blueobj2
+      - blueobj2
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yellowobj1
+      - blackwall
+    - items:
+      - blackwall
+      - greenobj2
+      - greenobj2
+      - greenobj2
+      - 
+      - blueobj2
+      - blueobj2
+      - blueobj2
+      - 
+      - 
+      - 
+      - 
+      - yellowobj1
+      - yellowobj1
+      - blackwall
+    - items:
+      - blackwall
+      - blackwall
+      - blackwall
+      - blackwall
+      - blackwall
+      - blackwall
+      - blackwall
+      - redwall
+      - redwall
+      - redwall
+      - redwall
+      - redwall
+      - blackwall
+      - blackwall
+      - blackwall
+    WidthCount: 15
+    HeightCount: 15
+  timeLimit: 200
+  towerHealth: 400
+  enemyRows: 13
+  enemyColumns: 13

@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bcc4ebe7965e2e419567d2cd49a2e7d, type: 3}
+  m_Name: Level1
+  m_EditorClassIdentifier: 
+  levelName: FirstLevel
+  tower: {fileID: 4193506968822693280, guid: 5337ee33fd39fa54598378111357503c, type: 3}
+  npc: {fileID: 1051664970830496459, guid: a9ab6ffd9299ae44dbc69436647c0b32, type: 3}
+  gridLayout:
+    CellWidth: 30
+    CellHeight: 20
+    PaddingW: 5
+    PaddingH: 5
+    CustomCellSizeSet: 0
+    CustomPaddingSet: 0
+    Grid:
+    - items:
+      - blackwall
+      - blackwall
+      - redwall
+      - redwall
+      - blackwall
+      - blackwall
+      - blackwall
+      - blackwall
+      - blackwall
+      - blackwall
+    - items:
+      - blackwall
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - blackwall
+    - items:
+      - blackwall
+      - 
+      - redobj1
+      - 
+      - 
+      - 
+      - greenobj1
+      - greenobj1
+      - 
+      - greenwall
+    - items:
+      - bluewall
+      - redobj1
+      - redobj1
+      - 
+      - blueobj1
+      - 
+      - 
+      - 
+      - 
+      - greenwall
+    - items:
+      - bluewall
+      - 
+      - 
+      - blueobj1
+      - blueobj1
+      - blueobj1
+      - 
+      - 
+      - 
+      - blackwall
+    - items:
+      - bluewall
+      - 
+      - 
+      - 
+      - blueobj1
+      - 
+      - pinkobj1
+      - pinkobj1
+      - 
+      - blackwall
+    - items:
+      - blackwall
+      - 
+      - 
+      - 
+      - 
+      - 
+      - pinkobj1
+      - pinkobj1
+      - 
+      - blackwall
+    - items:
+      - blackwall
+      - 
+      - yellowobj1
+      - yellowobj1
+      - yellowobj1
+      - 
+      - 
+      - 
+      - 
+      - pinkwall
+    - items:
+      - blackwall
+      - 
+      - 
+      - 
+      - 
+      - 
+      - redobj2
+      - redobj2
+      - 
+      - pinkwall
+    - items:
+      - blackwall
+      - blackwall
+      - yellowwall
+      - yellowwall
+      - yellowwall
+      - blackwall
+      - blackwall
+      - blackwall
+      - blackwall
+      - blackwall
+    WidthCount: 10
+    HeightCount: 10
+  timeLimit: 100
+  towerHealth: 100
+  enemyRows: 8
+  enemyColumns: 8
