@@ -35,7 +35,7 @@ MonoBehaviour:
       - blackwall
       - blackwall
     - items:
-      - blcakwall
+      - blackwall
       - greenobj1
       - 
       - greenobj2
@@ -46,7 +46,7 @@ MonoBehaviour:
       - 
       - blackwall
     - items:
-      - blcakwall
+      - blackwall
       - greenobj1
       - 
       - greenobj2
@@ -55,7 +55,7 @@ MonoBehaviour:
       - pinkobj1
       - pinkobj1
       - 
-      - blcakwall
+      - blackwall
     - items:
       - yellowwall
       - greenobj1
@@ -66,9 +66,9 @@ MonoBehaviour:
       - pinkobj1
       - pinkobj1
       - 
-      - blcakwall
+      - blackwall
     - items:
-      - blcakwall
+      - blackwall
       - greenobj1
       - 
       - 
@@ -77,9 +77,9 @@ MonoBehaviour:
       - 
       - 
       - 
-      - blcakwall
+      - blackwall
     - items:
-      - blcakwall
+      - blackwall
       - 
       - 
       - 
@@ -90,7 +90,7 @@ MonoBehaviour:
       - 
       - pinkwall
     - items:
-      - blcakwall
+      - blackwall
       - redobj1
       - redobj1
       - 
@@ -101,7 +101,7 @@ MonoBehaviour:
       - 
       - pinkwall
     - items:
-      - blcakwall
+      - blackwall
       - redobj1
       - redobj1
       - 
@@ -112,7 +112,7 @@ MonoBehaviour:
       - 
       - pinkwall
     - items:
-      - blcakwall
+      - blackwall
       - redobj1
       - redobj1
       - 
@@ -121,21 +121,21 @@ MonoBehaviour:
       - blueobj1
       - 
       - 
-      - blcakwall
+      - blackwall
     - items:
-      - blcakwall
-      - blcakwall
-      - blcakwall
-      - blcakwall
-      - blcakwall
-      - blcakwall
-      - blcakwall
+      - blackwall
+      - blackwall
+      - blackwall
+      - blackwall
+      - blackwall
+      - blackwall
+      - blackwall
       - greenwall
-      - blcakwall
-      - blcakwall
+      - blackwall
+      - blackwall
     WidthCount: 10
     HeightCount: 10
   timeLimit: 100
-  towerHealth: 250
+  towerHealth: 150
   enemyRows: 8
   enemyColumns: 8
