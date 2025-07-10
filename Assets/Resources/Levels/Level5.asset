@@ -182,6 +182,6 @@ MonoBehaviour:
     WidthCount: 12
     HeightCount: 12
   timeLimit: 150
-  towerHealth: 300
-  enemyRows: 10
-  enemyColumns: 10
+  towerHealth: 200
+  enemyRows: 8
+  enemyColumns: 8
